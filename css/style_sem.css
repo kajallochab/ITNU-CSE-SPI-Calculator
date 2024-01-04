@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: linear-gradient(to right, #f8f9fa, #f2f3f4);
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: hsl(330, 64%, 23%);
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+select {
+    width: 200px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+}
+
+.button-container button {
+    width: 150px;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.modal-content {
+    background-color: #fff;
+    border: 1px solid #999;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header,
+.modal-footer {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.modal-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .container {
+        max-width: 1000px;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    button {
+        width: 200px;
+        font-size: 18px;
+    }
+}
