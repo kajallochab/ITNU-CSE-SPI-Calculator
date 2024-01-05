@@ -109,8 +109,16 @@ function calculateEight() {
 
 }
 
-function refresh() {
-    window.location.reload(false);
+function refresh3() {
+    window.location.href = 'sem3.html';
+}
+
+function refresh5() {
+    window.location.href = 'sem5.html';
+}
+
+function refresh7() {
+    window.location.href = 'sem7.html';
 }
 
 function redirectToIndex() {
