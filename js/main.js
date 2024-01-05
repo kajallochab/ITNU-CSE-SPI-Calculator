@@ -112,3 +112,7 @@ function calculateEight() {
 function refresh() {
     window.location.reload(false);
 }
+
+function redirectToIndex() {
+    window.location.href = 'index.html';
+}
