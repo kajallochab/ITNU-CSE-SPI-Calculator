@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/style_sem.css">
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <title>Semester 5</title>
+</head>
+
+<body>
+    <header>
+        <p class="navbar-brand">ITNU SPI Calculator</p>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Semester 5</h1>
+            <form class="" action="" method="" target="_self" id="gradeForm">
+                <div class="form-group">
+                    <select class="" name="" required style="width: 300px;">
+                        <option value="" selected disabled>Machine Learning</option>
+                        <option value="10">A+</option>
+                        <option value="9">A</option>
+                        <option value="8">B+</option>
+                        <option value="7">B</option>
+                        <option value="6">C+</option>
+                        <option value="5">C</option>
+                        <option value="0">IF</option>
+                    </select><br>
+
+                    <select class="" name="" required style="width: 300px;">
+                        <option value="" selected disabled>Computer Networks</option>
+                        <option value="10">A+</option>
+                        <option value="9">A</option>
+                        <option value="8">B+</option>
+                        <option value="7">B</option>
+                        <option value="6">C+</option>
+                        <option value="5">C</option>
+                        <option value="0">IF</option>
+                    </select><br>
+
+                    <select class="" name="" required style="width: 300px;">
+                        <option value="" selected disabled>Design & Analysis of Algorithms</option>
+                        <option value="10">A+</option>
+                        <option value="9">A</option>
+                        <option value="8">B+</option>
+                        <option value="7">B</option>
+                        <option value="6">C+</option>
+                        <option value="5">C</option>
+                        <option value="0">IF</option>
+                    </select><br>
+
+                    <select class="" name="" required style="width: 300px;">
+                        <option value="" selected disabled>Software Engineering</option>
+                        <option value="10">A+</option>
+                        <option value="9">A</option>
+                        <option value="8">B+</option>
+                        <option value="7">B</option>
+                        <option value="6">C+</option>
+                        <option value="5">C</option>
+                        <option value="0">IF</option>
+                    </select><br>
+
+                    <select class="" name="" required style="width: 300px;">
+                        <option value="" selected disabled>OE (Humanities pool)</option>
+                        <option value="10">A+</option>
+                        <option value="9">A</option>
+                        <option value="8">B+</option>
+                        <option value="7">B</option>
+                        <option value="6">C+</option>
+                        <option value="5">C</option>
+                        <option value="0">IF</option>
+                    </select><br>
+
+                    <select class="" name="" required style="width: 300px;">
+                        <option value="" selected disabled>OE (Technical pool)</option>
+                        <option value="10">A+</option>
+                        <option value="9">A</option>
+                        <option value="8">B+</option>
+                        <option value="7">B</option>
+                        <option value="6">C+</option>
+                        <option value="5">C</option>
+                        <option value="0">IF</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+        </form>
+        <div class="button-container">
+            <button type="button" name="" onclick="calculateFive()" class="btn btn-secondary" data-toggle="modal"
+                data-target="#exampleModal">Calculate</button>
+        </div>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title" id="exampleModalLabel">SPI:</h2>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h2 id="marks"></h2>
+                                </div>
+                                <div class="button-container">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                                        onclick="redirectToIndex()">Close</button>
+                                    <button type="reset" class="btn btn-primary" onclick="refresh()">Reset</button>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </main>
+</body>
+
+</html>
